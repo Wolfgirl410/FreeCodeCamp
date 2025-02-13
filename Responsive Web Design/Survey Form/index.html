@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+<h1 id="title">
+FreeCodeCamp Survey
+</h1>
+      <p id="description">
+We appreciate you filling up the survey
+        </p>
+  <form id="survey-form">
+    <fieldset>
+<label id="name-label">Enter name here<input id="name" type="text" required placeholder="insert your name here" /></label>
+<label id="email-label">Enter email here<input id="email" type="email" placeholder="insert your email here" required /></label>
+<label id="number-label">Enter age here<input id="number" type="number" placeholder="insert your age here" min="15" max="55" required /></label>
+<select id="dropdown">
+  <option value=""> choose one</option>
+  <option value="1"> two</option>
+  <option value="2"> three</option>
+</select>
+</fieldset>
+<fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input value="personal" id="personal-account" type="radio" name="account-type" checked class="inline" /> Personal</label>
+        <label for="business-account"><input  value="business" id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+</fieldset>
+<fieldset>
+<input type="checkbox" value="married" class="inline" /> married 
+<input type="checkbox" value="single" class="inline" /> single
+</fieldset>
+<textarea placeholder="test123"></textarea>
+<input type="submit" id="submit"/>
+  </form>
+  </main>
+  </body>
+  </html>
