@@ -4,6 +4,7 @@ def calculation(list):
 
 	if list<9:
 	raise ValueError('List must contain nine numbers.')
+	
 
 	calculations = {
      		'mean'			: [matrix.mean(axis=0).tolist(), matrix.mean(axis=1).tolist(), matrix.mean().item()],
