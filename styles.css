@@ -25,17 +25,8 @@ h2 {
 	cursor: pointer;
   	transition: transform 0.3s ease; /* Add a smooth transition */
 }
-.my-btn1 {
-  background-color: #FFAFCC;
-}
-.my-btn2 {
-  background-color: #FEEBCB;
-}
-.my-btn3 {
-  background-color: #6196C4;
-}
-.my-btn4 {
-  background-color: #6196C4;
+.my-btn1,.my-btn2, .my-btn3, .my-btn4{
+  background-color: #6196C4
 }
 
 .btn:hover {
