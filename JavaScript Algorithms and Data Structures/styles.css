@@ -45,6 +45,6 @@ button {
   transition: transform 0.3s ease;
 }
 
-.btn:hover{
+button:hover{
   transform: scale(1.5);
 }
